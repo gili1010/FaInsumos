@@ -27,7 +27,8 @@ namespace FA_INSUMOS
             string contraseña = txtContraseña.Text;
 
             // Realizar la validación de credenciales en tu base de datos
-            //prueba de git
+            //prueba de git, 
+            //ahora yo pruebo de nuevo
             if (ValidarCredenciales(email, contraseña))
             {
                 // Las credenciales son válidas, permitir el acceso a "form x"
