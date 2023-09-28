@@ -16,5 +16,65 @@ namespace FA_INSUMOS
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nuevaCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void historialVentasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guardarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guardarCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void modificarArticuloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
