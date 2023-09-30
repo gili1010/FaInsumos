@@ -92,5 +92,15 @@
   <ItemGroup>
     <None Include="Resources\escarlatina la cocinera.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdminEntidades\AdminEntidades.csproj">
+      <Project>{92f85675-d354-43b5-ac62-698cbb78748c}</Project>
+      <Name>AdminEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AdminNegocio\AdminNegocio.csproj">
+      <Project>{997b0713-0dd8-481a-a7b6-e01660fddd6b}</Project>
+      <Name>AdminNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -14,69 +14,75 @@ namespace FA_INSUMOS
 {
     public partial class frmLogin : Form
     {
+
         public frmLogin()
         {
             InitializeComponent();
         }
 
-
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-
+    
             string email = txtUsuario.Text;
             string contraseña = txtContraseña.Text;
 
-            // Realizar la validación de credenciales en tu base de datos
-            //prueba de git, 
-            //ahora yo pruebo de nuevo
             if (ValidarCredenciales(email, contraseña))
             {
-                // Las credenciales son válidas, permitir el acceso a "form x"
-                frmGestiones formG = new frmGestiones();
-                this.Hide();  // Ocultar el formulario de inicio de sesión
-                formG.Show();  // Mostrar el formulario "x"
+                AbrirFormularioGestiones();
             }
             else
             {
-                MessageBox.Show("Credenciales incorrectas. Inténtalo de nuevo.");
+                MessageBox.Show("Credenciales incorrectas. Intenta de nuevo.");
+                LimpiarCampos();
             }
 
         }
         private bool ValidarCredenciales(string email, string contraseña)
         {
-            // Configurar la cadena de conexión a tu base de datos SQL Server
-            string connectionString = "Data Source=DESKTOP-VGV3DBL\\SQLEXPRESS;Initial Catalog=fa_insumos;Integrated Security=True;";
-
-            // Crear una conexión a la base de datos
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            try
             {
-                // Abrir la conexión
-                connection.Open();
+                string connectionString = ObtenerCadenaConexion();
 
-                // Consulta SQL para verificar las credenciales
-                string query = "SELECT COUNT(*) FROM usuarios WHERE Email = @Email AND Contraseña = @Contraseña";
-
-                // Crear un comando SQL
-                using (SqlCommand command = new SqlCommand(query, connection))
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    // Agregar parámetros
-                    command.Parameters.AddWithValue("@Email", email);
-                    command.Parameters.AddWithValue("@Contraseña", contraseña);
+                    connection.Open();
+                    string query = "SELECT COUNT(*) FROM usuarios WHERE Email = @Email AND Contraseña = @Contraseña";
 
-                    // Ejecutar la consulta y obtener el resultado
-                    int count = (int)command.ExecuteScalar();
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@Email", email);
+                        command.Parameters.AddWithValue("@Contraseña", contraseña);
 
-                    // Si count es mayor que 0, las credenciales son válidas
-                    if (count > 0)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
+                        int count = (int)command.ExecuteScalar();
+                        return count > 0;
                     }
                 }
             }
+            catch (Exception ex)
+            {
+                // Manejar cualquier excepción que pueda ocurrir al conectar con la base de datos.
+                MessageBox.Show("Error al validar credenciales: " + ex.Message);
+                return false;
+            }
+        }
+
+        private string ObtenerCadenaConexion()
+        {
+            // Obtener la cadena de conexión desde un archivo de configuración o utilizar una constante.
+            return "Data Source=localhost;Initial Catalog=fa_insumos;Integrated Security=True;";
+        }
+
+        private void AbrirFormularioGestiones()
+        {
+            frmGestiones formG = new frmGestiones();
+            this.Hide();
+            formG.Show();
+        }
+
+        private void LimpiarCampos()
+        {
+            txtUsuario.Text = string.Empty;
+            txtContraseña.Text = string.Empty;
         }
 
 

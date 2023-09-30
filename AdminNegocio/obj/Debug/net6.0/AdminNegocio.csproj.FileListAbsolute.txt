@@ -1,0 +1,17 @@
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\bin\Debug\net6.0\AdminNegocio.deps.json
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\bin\Debug\net6.0\AdminNegocio.dll
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\bin\Debug\net6.0\AdminNegocio.pdb
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\bin\Debug\net6.0\AdminDatos.dll
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\bin\Debug\net6.0\AdminEntidades.dll
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\bin\Debug\net6.0\AdminDatos.pdb
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\bin\Debug\net6.0\AdminEntidades.pdb
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\AdminNegocio.csproj.AssemblyReference.cache
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\AdminNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\AdminNegocio.AssemblyInfoInputs.cache
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\AdminNegocio.AssemblyInfo.cs
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\AdminNegocio.csproj.CoreCompileInputs.cache
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\AdminNegocio.csproj.CopyComplete
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\AdminNegocio.dll
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\refint\AdminNegocio.dll
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\AdminNegocio.pdb
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\AdminNegocio\obj\Debug\net6.0\ref\AdminNegocio.dll

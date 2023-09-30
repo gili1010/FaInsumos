@@ -22,3 +22,14 @@ C:\Users\outlet\Documents\ISSD\FaInsumosV1\FaInsumos\FA INSUMOS\obj\Debug\FA INS
 C:\Users\outlet\Documents\ISSD\FaInsumosV1\FaInsumos\FA INSUMOS\obj\Debug\FA INSUMOS.csproj.CoreCompileInputs.cache
 C:\Users\outlet\Documents\ISSD\FaInsumosV1\FaInsumos\FA INSUMOS\obj\Debug\FA INSUMOS.exe
 C:\Users\outlet\Documents\ISSD\FaInsumosV1\FaInsumos\FA INSUMOS\obj\Debug\FA INSUMOS.pdb
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\bin\Debug\FA INSUMOS.exe.config
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\bin\Debug\FA INSUMOS.exe
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\bin\Debug\FA INSUMOS.pdb
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\obj\Debug\FA INSUMOS.csproj.AssemblyReference.cache
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\obj\Debug\FA_INSUMOS.frmGestiones.resources
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\obj\Debug\FA_INSUMOS.frmLogin.resources
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\obj\Debug\FA_INSUMOS.Properties.Resources.resources
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\obj\Debug\FA INSUMOS.csproj.GenerateResource.cache
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\obj\Debug\FA INSUMOS.csproj.CoreCompileInputs.cache
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\obj\Debug\FA INSUMOS.exe
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\FA INSUMOS\obj\Debug\FA INSUMOS.pdb
