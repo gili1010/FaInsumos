@@ -29,14 +29,15 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            txtUsuario = new TextBox();
-            txtContraseña = new TextBox();
             btnIngresar = new Button();
+            txtContraseña = new TextBox();
+            txtUsuario = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.BackColor = Color.RosyBrown;
             panel1.Controls.Add(btnIngresar);
             panel1.Controls.Add(txtContraseña);
             panel1.Controls.Add(txtUsuario);
@@ -44,20 +45,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(269, 318);
             panel1.TabIndex = 0;
-            // 
-            // txtUsuario
-            // 
-            txtUsuario.Location = new Point(56, 82);
-            txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(189, 23);
-            txtUsuario.TabIndex = 0;
-            // 
-            // txtContraseña
-            // 
-            txtContraseña.Location = new Point(56, 126);
-            txtContraseña.Name = "txtContraseña";
-            txtContraseña.Size = new Size(189, 23);
-            txtContraseña.TabIndex = 1;
             // 
             // btnIngresar
             // 
@@ -69,13 +56,28 @@
             btnIngresar.UseVisualStyleBackColor = true;
             btnIngresar.Click += btnIngresar_Click;
             // 
-            // Form1
+            // txtContraseña
+            // 
+            txtContraseña.Location = new Point(56, 126);
+            txtContraseña.Name = "txtContraseña";
+            txtContraseña.Size = new Size(189, 23);
+            txtContraseña.TabIndex = 1;
+            // 
+            // txtUsuario
+            // 
+            txtUsuario.Location = new Point(56, 82);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(189, 23);
+            txtUsuario.TabIndex = 0;
+            // 
+            // FrmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.MenuHighlight;
             ClientSize = new Size(800, 450);
             Controls.Add(panel1);
-            Name = "Form1";
+            Name = "FrmLogin";
             Text = "Form1";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

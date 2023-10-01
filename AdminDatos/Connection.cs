@@ -9,7 +9,7 @@ namespace AdminDatos
     {
         SqlConnection cn = new SqlConnection("Data Source=localhost;Initial Catalog=fa_insumos;Integrated Security=True;");
 
-        public DataTable D_Login(Class1 Obje)
+        public DataTable D_Login(ClassEntidades Obje)
         {
             SqlCommand command = new SqlCommand("sp_login", cn);
             command.CommandType = CommandType.StoredProcedure;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8ZoBlrTzebdWodmmIAHIR2KNxPDeHSs6x0P3T6AloAm3f3OproL9FIUTAvvdSpHPpGZ9FQg8k2IxGW8LdtgT9A==",
+  "dgSpecHash": "leT99qdhX//BF17AWHJupg1jS+qgbSVCQUShzS1WL35blqlhfgJtQuBJsdOAttjHmt3HCn044MOLMRMciXyHBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\intel\\Desktop\\Fa-Insumos\\Fa-InsumosV2\\FaInsumos\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\Users\\intel\\Desktop\\Fa-Insumos\\Fa-InsumosV2\\FaInsumos\\WinFormsApp1\\WinFormsFront.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\intel\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\intel\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

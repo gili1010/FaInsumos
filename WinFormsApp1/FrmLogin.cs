@@ -5,7 +5,7 @@ namespace WinFormsApp1
 {
     public partial class FrmLogin : Form
     {
-        AdminEntidades.Class1 obje = new AdminEntidades.Class1();
+        AdminEntidades.ClassEntidades obje = new AdminEntidades.ClassEntidades();
         AdminNegocio.Negocio objn = new AdminNegocio.Negocio();
 
         public FrmLogin()

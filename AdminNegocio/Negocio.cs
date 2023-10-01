@@ -6,7 +6,7 @@ namespace AdminNegocio
     {
         AdminDatos.Connection objd = new AdminDatos.Connection();
 
-        public DataTable N_login(AdminEntidades.Class1 Obje)
+        public DataTable N_login(AdminEntidades.ClassEntidades Obje)
         {
             return objd.D_Login(Obje);
         }

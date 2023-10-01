@@ -842,9 +842,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\intel\\Desktop\\Fa-Insumos\\Fa-InsumosV2\\FaInsumos\\WinFormsApp1\\WinFormsApp1.csproj",
-      "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\intel\\Desktop\\Fa-Insumos\\Fa-InsumosV2\\FaInsumos\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\Users\\intel\\Desktop\\Fa-Insumos\\Fa-InsumosV2\\FaInsumos\\WinFormsApp1\\WinFormsFront.csproj",
+      "projectName": "WinFormsFront",
+      "projectPath": "C:\\Users\\intel\\Desktop\\Fa-Insumos\\Fa-InsumosV2\\FaInsumos\\WinFormsApp1\\WinFormsFront.csproj",
       "packagesPath": "C:\\Users\\intel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\intel\\Desktop\\Fa-Insumos\\Fa-InsumosV2\\FaInsumos\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",

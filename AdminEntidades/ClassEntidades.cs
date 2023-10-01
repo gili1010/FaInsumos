@@ -1,6 +1,6 @@
 ﻿namespace AdminEntidades
 {
-    public class Class1
+    public class ClassEntidades
     {
         public string usu1 {  get; set; }
         public string pass1 { get; set;}
