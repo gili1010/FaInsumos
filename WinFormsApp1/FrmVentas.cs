@@ -8,24 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp1
+namespace WinFormsFront
 {
-    public partial class FrmGestiones : Form
+    public partial class FrmVentas : Form
     {
-        public FrmGestiones(string rol)
+        public FrmVentas(string rol)
         {
             InitializeComponent();
 
             // Mostrar el rol en el Label correspondiente en FrmGestiones
             labelRol.Text = "Rol: " + rol; // Ajusta el nombre del Label según corresponda
-        }
-
-        private void FrmGestiones_Load(object sender, EventArgs e)
-        {
 
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void FrmVentas_Load(object sender, EventArgs e)
         {
 
         }
