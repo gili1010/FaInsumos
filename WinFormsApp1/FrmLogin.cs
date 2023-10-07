@@ -1,5 +1,6 @@
 using System.Data;
 using System.Windows.Forms;
+using WinFormsFront;
 
 namespace WinFormsApp1
 {
@@ -23,9 +24,21 @@ namespace WinFormsApp1
 
             if (dt.Rows.Count > 0)
             {
-                obje.usu1 = dt.Rows[0][4].ToString();
-                obje.pass1 = dt.Rows[0][5].ToString();
-                AbrirFormularioGestiones();
+                obje.usu1 = dt.Rows[0][1].ToString();
+                obje.pass1 = dt.Rows[0][0].ToString();
+
+                string rol = dt.Rows[0]["Rol"].ToString();
+
+                if (rol == "admin")
+                {
+                    AbrirFormularioGestiones("Administrador");
+                }
+                else
+                {
+                    // Abre otro formulario
+                    AbrirFormularioVentas("Usuario");
+                }
+
             }
             else
             {
@@ -34,17 +47,29 @@ namespace WinFormsApp1
             }
         }
 
-        private void AbrirFormularioGestiones()
+        private void AbrirFormularioGestiones(String rol)
         {
-            FrmGestiones formG = new FrmGestiones();
+            FrmGestiones formG = new FrmGestiones(rol);
             this.Hide();
             formG.Show();
+        }
+
+        private void AbrirFormularioVentas(String rol)
+        {
+            FrmVentas formV = new FrmVentas(rol);
+            this.Hide();
+            formV.Show();
         }
 
         private void LimpiarCampos()
         {
             txtUsuario.Text = string.Empty;
             txtContraseña.Text = string.Empty;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
