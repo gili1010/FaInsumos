@@ -1,0 +1,15 @@
+# Carpeta generada por Visual Studio
+.vs/
+
+# Carpetas generadas en tiempo de ejecución
+/bin/
+/obj/
+/Debug/
+/Release/
+
+# Archivos de configuración de usuario
+*.user
+*.suo
+
+# Carpetas y archivos de dependencias de NuGet
+/packages/
