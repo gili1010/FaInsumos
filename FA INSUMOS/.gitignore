@@ -13,3 +13,7 @@
 
 # Carpetas y archivos de dependencias de NuGet
 /packages/
+
+# Ignorar archivos generados por Visual Studio
+WinFormsApp1/obj/
+FA INSUMOS/.vs/

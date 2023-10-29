@@ -41,3 +41,7 @@ C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\WinFormsApp1\obj\Debug\
 C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsFront.genruntimeconfig.cache
 C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsFront.dll
 C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsFront.FrmVentas.resources
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsFront.FrmAgregarProd.resources
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsFront.FrmBuscarProd.resources
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsFront.FrmModificarProd.resources
+C:\Users\intel\Desktop\Fa-Insumos\Fa-InsumosV2\FaInsumos\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsFront.FrmEliminarProducto.resources
