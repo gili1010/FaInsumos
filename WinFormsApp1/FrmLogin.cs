@@ -1,4 +1,5 @@
 using System.Data;
+using System.Security.Cryptography.X509Certificates;
 using System.Windows.Forms;
 using WinFormsFront;
 
@@ -14,6 +15,13 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
+        //clase para obtener el rol global
+        public static class ConfiguracionUsuario
+        {
+            public static string Rol { get; set; }
+        }
+
+
         private void btnIngresar_Click(object sender, EventArgs e)
         {
 
@@ -28,6 +36,7 @@ namespace WinFormsApp1
                 obje.pass1 = dt.Rows[0][0].ToString();
 
                 string rol = dt.Rows[0]["Rol"].ToString();
+                ConfiguracionUsuario.Rol = rol;
 
                 if (rol == "admin")
                 {
@@ -68,6 +77,11 @@ namespace WinFormsApp1
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
         {
 
         }

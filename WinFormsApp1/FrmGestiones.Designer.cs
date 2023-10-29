@@ -43,6 +43,10 @@
             proveedoresToolStripMenuItem = new ToolStripMenuItem();
             clientesToolStripMenuItem = new ToolStripMenuItem();
             stockToolStripMenuItem = new ToolStripMenuItem();
+            buscarProductoToolStripMenuItem = new ToolStripMenuItem();
+            agregarProductoToolStripMenuItem = new ToolStripMenuItem();
+            modificarProductoToolStripMenuItem = new ToolStripMenuItem();
+            eliminarProductoToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1 = new MenuStrip();
             labelRol = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -133,9 +137,38 @@
             // 
             // stockToolStripMenuItem
             // 
+            stockToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { buscarProductoToolStripMenuItem, agregarProductoToolStripMenuItem, modificarProductoToolStripMenuItem, eliminarProductoToolStripMenuItem });
             stockToolStripMenuItem.Name = "stockToolStripMenuItem";
-            stockToolStripMenuItem.Size = new Size(48, 20);
-            stockToolStripMenuItem.Text = "Stock";
+            stockToolStripMenuItem.Size = new Size(73, 20);
+            stockToolStripMenuItem.Text = "Productos";
+            // 
+            // buscarProductoToolStripMenuItem
+            // 
+            buscarProductoToolStripMenuItem.Name = "buscarProductoToolStripMenuItem";
+            buscarProductoToolStripMenuItem.Size = new Size(180, 22);
+            buscarProductoToolStripMenuItem.Text = "Buscar Producto";
+            buscarProductoToolStripMenuItem.Click += buscarProductoToolStripMenuItem_Click;
+            // 
+            // agregarProductoToolStripMenuItem
+            // 
+            agregarProductoToolStripMenuItem.Name = "agregarProductoToolStripMenuItem";
+            agregarProductoToolStripMenuItem.Size = new Size(180, 22);
+            agregarProductoToolStripMenuItem.Text = "Agregar Producto";
+            agregarProductoToolStripMenuItem.Click += agregarProductoToolStripMenuItem_Click;
+            // 
+            // modificarProductoToolStripMenuItem
+            // 
+            modificarProductoToolStripMenuItem.Name = "modificarProductoToolStripMenuItem";
+            modificarProductoToolStripMenuItem.Size = new Size(180, 22);
+            modificarProductoToolStripMenuItem.Text = "Modificar Producto";
+            modificarProductoToolStripMenuItem.Click += modificarProductoToolStripMenuItem_Click;
+            // 
+            // eliminarProductoToolStripMenuItem
+            // 
+            eliminarProductoToolStripMenuItem.Name = "eliminarProductoToolStripMenuItem";
+            eliminarProductoToolStripMenuItem.Size = new Size(180, 22);
+            eliminarProductoToolStripMenuItem.Text = "Eliminar Producto";
+            eliminarProductoToolStripMenuItem.Click += eliminarProductoToolStripMenuItem_Click;
             // 
             // menuStrip1
             // 
@@ -165,6 +198,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "FrmGestiones";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestiones - FA INSUMOS";
             Load += FrmGestiones_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -192,5 +226,9 @@
         private ToolStripMenuItem stockToolStripMenuItem;
         private MenuStrip menuStrip1;
         private Label labelRol;
+        private ToolStripMenuItem buscarProductoToolStripMenuItem;
+        private ToolStripMenuItem agregarProductoToolStripMenuItem;
+        private ToolStripMenuItem modificarProductoToolStripMenuItem;
+        private ToolStripMenuItem eliminarProductoToolStripMenuItem;
     }
 }
