@@ -46,6 +46,7 @@
             txtCodigo.Name = "txtCodigo";
             txtCodigo.Size = new Size(113, 23);
             txtCodigo.TabIndex = 0;
+            txtCodigo.TextChanged += txtCodigo_TextChanged;
             // 
             // btnModificar
             // 
@@ -71,6 +72,7 @@
             txtNuevoStock.Name = "txtNuevoStock";
             txtNuevoStock.Size = new Size(194, 23);
             txtNuevoStock.TabIndex = 3;
+            txtNuevoStock.TextChanged += txtNuevoStock_TextChanged;
             // 
             // label1
             // 
@@ -80,6 +82,7 @@
             label1.Size = new Size(46, 15);
             label1.TabIndex = 4;
             label1.Text = "Codigo";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -89,6 +92,7 @@
             label2.Size = new Size(69, 15);
             label2.TabIndex = 5;
             label2.Text = "Descripción";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -98,6 +102,7 @@
             label3.Size = new Size(36, 15);
             label3.TabIndex = 6;
             label3.Text = "Stock";
+            label3.Click += label3_Click;
             // 
             // button1
             // 
@@ -119,6 +124,7 @@
             label4.Size = new Size(223, 32);
             label4.TabIndex = 8;
             label4.Text = "Modificar Producto";
+            label4.Click += label4_Click;
             // 
             // btnBuscar
             // 

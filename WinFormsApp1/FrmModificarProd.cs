@@ -107,5 +107,30 @@ namespace WinFormsFront
                 MessageBox.Show("El valor del stock no es un número válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void txtNuevoStock_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void txtCodigo_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }

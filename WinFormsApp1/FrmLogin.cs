@@ -38,15 +38,15 @@ namespace WinFormsApp1
                 string rol = dt.Rows[0]["Rol"].ToString();
                 ConfiguracionUsuario.Rol = rol;
 
-                if (rol == "admin")
-                {
+               // if (rol == "admin")
+               // {
                     AbrirFormularioGestiones("Administrador");
-                }
-                else
-                {
+               // }
+              //  else
+               // {
                     // Abre otro formulario
-                    AbrirFormularioVentas("Usuario");
-                }
+                  //  AbrirFormularioVentas("Usuario");
+               // }
 
             }
             else
@@ -63,9 +63,9 @@ namespace WinFormsApp1
             formG.Show();
         }
 
-        private void AbrirFormularioVentas(String rol)
+        private void AbrirFormularioVentas()
         {
-            FrmVentas formV = new FrmVentas(rol);
+            FrmVentas formV = new FrmVentas();
             this.Hide();
             formV.Show();
         }
