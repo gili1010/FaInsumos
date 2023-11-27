@@ -35,5 +35,53 @@ namespace AdminNegocio
             objd.EliminarProductoPorCodigo(codigo);
         }
 
+        // Método para mostrar un proveedor por Cuit
+        public DataTable N_MostrarProveedor(string productoCod)
+        {
+            return objd.MostrarProveedor(productoCod);
+        }
+
+        // Método para ingresar un proveedor
+        public void N_InsertarProveedor(AdminEntidades.ClassEntidades proveedor)
+        {
+            objd.InsertarProveedor(proveedor.cuit, proveedor.RZ, proveedor.nombre_contacto, proveedor.direccion);
+        }
+
+        // Método para modificar un proveedor
+        public void N_ModificarProveedor(string cuit, string RZ, string contacto, string direccion)
+        {
+            objd.ModificarProveedor(cuit, RZ, contacto, direccion);
+        }
+
+        // Método para eliminar un proveedor
+        public void N_EliminarProveedor(string cuit)
+        {
+            objd.EliminarProveedor(cuit);
+        }
+
+        // Método para listar proveedores
+        public DataTable N_ListarProveedores()
+        {
+            return objd.MostrarProveedoresLista();
+        }
+
+        // Método para listar productos
+        public DataTable N_ListarProductos()
+        {
+            return objd.MostrarProductosLista();
+        }
+
+        // Método para listar ventas
+        public DataTable N_MostrarVentas()
+        {
+            return objd.MostrarVentas();
+        }
+
+        // Método para insertar ventas
+        public void N_InsertarVentas(int idUsuario, decimal TotalVenta, int IdProducto, int Cantidad, decimal PrecioUnitario)
+        {
+            objd.InsertarVenta(idUsuario, TotalVenta, IdProducto, Cantidad, PrecioUnitario);
+        }
+
     }
 }

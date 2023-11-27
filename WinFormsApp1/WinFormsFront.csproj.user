@@ -10,13 +10,37 @@
     <Compile Update="FrmEliminarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmEliminarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmGestiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmHistorialVenta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmModificarProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMostrarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMostrarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmNuevaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmProveedorModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmProveedorAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmProveedorBuscar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmVentas.cs">
